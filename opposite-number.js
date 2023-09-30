@@ -10,5 +10,5 @@
 //My solution
 function opposite(number) {
     let num = number * -1
-    return num
+    return num;
 }
