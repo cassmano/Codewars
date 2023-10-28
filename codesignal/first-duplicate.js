@@ -14,7 +14,7 @@ For a = [2, 4, 3, 5, 1], the output should be solution(a) = -1. // no such eleme
 function solution(a) {
     //create a variable to make a new set
     let newSet = new Set()
-    //loop through original array, and add it to the set
+    // loop through original array, and add it to the set
     for (let i = 0; i < a.length; i++) {
         //check for repeats
         if (newSet.has(a[i])) {
