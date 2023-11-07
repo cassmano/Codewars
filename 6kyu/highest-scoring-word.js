@@ -13,19 +13,6 @@ each letter = placement in alphabet; need to split the string to each word  with
 iterate through each index and assign a value according to alphabet placement do .map to return new array with values replacing letters; 
 a for loop for alphabetPosition i = 1; i <= 26; i++  */
 
-// function high(x){
-//   let sepByWord = x.split(' ')
-//   let wordScores = []
-//   //iterate through the array of words
-//   sepByWord.forEach(word => {
-//     let letterVals = word.split('').map(letter => letter.charCodeAt(0) -96)
-//     let calcWordScore = letterVals.reduce((a, b) => a + b, 0)
-//   })
-//   let findHighest = Math.max()
-//   let findIndexOfHighest = wordScores.indexOf(findHighest)
-//   return wordScores[findIndexOfHighest]
-// }
-
 function high(x) {
     let sepByWord = x.split(' ') // convert string to array separated by commas
     let wordScores = [] // create variable to hold array of scores
