@@ -23,3 +23,8 @@ String.prototype.isUpperCase = function() {
         return false
     }
 }
+
+//Refactoring using ternary
+String.prototype.isUpperCase = function() {
+    this.toString === this.toUpperCase() ? true : false
+}
