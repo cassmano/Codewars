@@ -13,6 +13,5 @@ function isDivisible(n, ...otherArgs) {
         return false; // Return false if not divisible
       }
     }
-  
     return true; // Return true if divisible by all elements
   }
