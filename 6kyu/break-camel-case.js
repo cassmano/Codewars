@@ -31,6 +31,7 @@ function solution(string) {
     
         return breakCamel;
 }
+console.log(solution('camelCasingBreaksNow'))
 
 /* Why my solution doesn't work:
 I am trying to use the match method on char, but char is undefined; it should be used on toArr (the split string) which char=item in arr. 
@@ -51,5 +52,4 @@ In the array, you map over each letter, if the letter is a capital (using regex 
 //     return breakCamel;
 // }
 
-console.log(solution('camelCasingBreaksNow'))
 
