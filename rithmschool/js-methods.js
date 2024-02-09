@@ -28,6 +28,7 @@ console.log(arr2.indexOf(10)) // returns -1 if not found in array
 // Create a new variable called combinedArr which is the result of your arr and arr2 variables combined into one array.
 let combinedArr = arr.concat(arr2)
 console.log(combinedArr)
+<<<<<<< HEAD
 // Your combinedArr variable should look like this (using our previous values) ["Elie", "Schoppik", 42, "JavaScript"]
 
 // Part II
@@ -57,3 +58,4 @@ console.log(partTwo.toString(" "))
 // Do I know what the indexOf function does? returns index of element
 // Do I know the difference between includes and indexOf? includes returns a boolean, indexOf returns a number (the index of the element)
 // Do I know why [] === [] always returns false? it's never the original array, but a shallow copy
+>>>>>>>>> Temporary merge branch 2
