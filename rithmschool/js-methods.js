@@ -57,4 +57,3 @@ console.log(partTwo.toString(" "))
 // Do I know what the indexOf function does? returns index of element
 // Do I know the difference between includes and indexOf? includes returns a boolean, indexOf returns a number (the index of the element)
 // Do I know why [] === [] always returns false? it's never the original array, but a shallow copy
-
