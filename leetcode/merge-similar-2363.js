@@ -1,7 +1,7 @@
  // INPUT:
  // items1Arr= [[value, weight], [value,weight], ...]
  // items2Arr= [[value, weight], [value,weight], ...]
-    //value is unique; weight the sum of items with matching indexes
+    //value is unique; weight is not always not unique
     //length of arrays are not always unqiue
  //OUTPUT:
     //Return array where returnedArr = [value, weight]
@@ -33,7 +33,7 @@
         return Array.from(mergedArray.entries).sort((a,b) => a[0] - b[0])
     }
 
-    //My solution that doesn't work
+    //My solution
     // var mergeSimilarItems = function(items1, items2) {
     //     //declare a variable for the output array
     //     let mergedArray = []
